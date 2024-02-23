@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+ body{
+    background-color: aquamarine;
+ }       
+.div{
+    
+    display: flex;
+    justify-content: center;
+}
+.ikg{
+    border: 20px solid black;
+}
+    </style>
+</head>
+<body>
+   
+    <div class="div">
+        <img style="border-radius: 10px;" id="image" src="dubai5.avif"  width="700" height="500" class="ikg">
+    
+</div>
+<div style="display: flex;justify-content: center;">
+    <button onclick="btn()"><img src="icon2.png" width="30px" height="20px"></button>
+    <button onclick="but()"><img src="icon2.png"  width="30px" height="20px"></button>
+    <button onclick="tub()"><img src="icon2.png"  width="30px" height="20px"></button>
+</div>
+
+
+
+</body>
+<script>
+    function btn() {
+        document.getElementById('image').src = "dubai2.avif";
+    }function but() {
+        document.getElementById('image').src = "dubai3.avif";
+    }function tub() {
+        document.getElementById('image').src = "dubai4.avif";
+    }
+
+</script>
+</html>
